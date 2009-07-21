@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin 'spmsd_freeteaser'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">	
+			<label index="searchmask.headline">Suche</label>
+			<label index="searchmask.subline">Geben Sie hier den gewünschten Suchbegriff ein.</label>
+			<label index="searchmask.submitbutton.label">Suchen</label>
+			
+			<label index="next_page.link.label">&amp;gt;</label>
+			<label index="previous_page.link.label">&amp;lt;</label>
+			<label index="first_page.link.label">&amp;lt;&amp;lt;</label>
+			<label index="last_page.link.label">&amp;gt;&amp;gt;</label>
+			<label index="hits.label">Treffer</label>
+			<label index="from.label">von</label>
+			<label index="to.label">bis</label>
+			<label index="for.label">für</label>
+			
+		</languageKey>
+	</data>
+</T3locallang>

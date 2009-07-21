@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<div class="background">
+	<h1>Suche</h1>
+	<p>Geben Sie hier den gew&uuml;nschten Suchbegriff ein.</p>
+</div>
+<form id="enterForm" method="post" action="/suche/?no_cache=1">
+
+	<div class="formular">
+		<fieldset class="sitesearch">
+			<input type="text" name="search[text]" id="txtSearchterm" class="search_field"  value="" />
+			<input type="submit" name="btnSubmit" id="btnSubmit" value="Suchen" class="button" />
+		</fieldset>
+	</div>
+</form>
+
+
+<!-- ###SEARCHMASK### begin -->
+<div class="background">
+	<h1>###HEADLINE###</h1>
+	<p>###SUBLINE###</p>
+</div>
+<form id="enterForm" name="enterForm" method="post" action="###ACTION_TARGET###">
+
+	<div class="formular">
+		<fieldset class="sitesearch">
+			###INPUT_SEARCH_TERM###
+			###SUBMIT_BUTTON###
+		</fieldset>
+	</div>
+</form>
+<br class="clear" />
+###RESULT###
+<!-- ###SEARCHMASK### end -->
+
+
+<!-- ###RESULTLIST### -->
+<div class="box">
+  <div class="text">
+    <span>###RESULT_META_INFO###</span>
+  </div>
+</div>
+<div class="box">
+	<div class="text">
+		Suchresultat-Seiten: ###PAGEFIRST### ###PAGEBACK### ###PAGECUR### von ###PAGEMAX### ###PAGENEXT### ###PAGELAST###
+	</div>
+</div>
+
+###RESULT_ITEMS###
+	</div>
+</div>
+<!-- ###RESULTLIST### -->
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'spmsd'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			
+			<!-- pi: ui (User Interface)  -->
+			<label index="ui_title">Lucene-Suche</label>
+			<label index="ui_plus_wiz_description">Lucene-Suchmaske und Ergebnisliste</label>
+			
+		</languageKey> 
+	</data>
+</T3locallang>
